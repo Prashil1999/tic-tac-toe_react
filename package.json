@@ -2,6 +2,7 @@
   "name": "tic-tac-toe",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://prashil1999.github.io/tic-tac-toe_react/",
   "dependencies": {
     "cra-template": "1.0.3",
     "react": "^17.0.0",
@@ -10,6 +11,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
